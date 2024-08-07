@@ -1,0 +1,314 @@
+/*   Responsive Css  */  
+ 
+@media screen and (min-width: 992px){
+
+.fixdNav {
+    display: none;
+} 
+    
+}
+
+@media screen and ( min-width: 1200px ) {
+
+.container {
+    max-width: 1665px;
+    padding-left: 100px;
+    padding-right: 100px;
+}   
+p {
+    margin-bottom: 25px; 
+} 
+    
+}  
+
+@media screen and ( max-width: 1699px ) { 
+    
+}  
+@media ( min-width: 1200px ) and ( max-width: 1299px ) { 
+    
+}
+
+@media screen and ( max-width: 1199px ){
+  
+.container{
+    max-width: 100%;
+    padding: 0 35px;
+}
+.padd-row, footer.footer {
+    padding: 80px 0;
+}
+body, .cmn_accordion .card .card-header h5 {
+    font-size: 17px;
+}
+.main-heading h2, h2 {
+    font-size: 38px;
+} 
+.header{
+    padding: 0;  
+} 
+.portalWrapper .formWrapper {
+    padding: 0 35px;
+}
+.banner_txtwrap h1 {
+    font-size: 45px;
+}
+.banner_main {
+    padding: 150px 0;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5 {
+    font-size: 18px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5::before {
+    top: 6px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5::after {
+    background-size: 12px auto;
+    width: 12px;
+    height: 12px;
+}
+.home_corVal_box .home_corVal_box_txt h4 {
+    font-size: 16px;
+}
+} 
+@media ( min-width: 768px ) and ( max-width: 991px ) { 
+.teamModal .teamModalBox_descWrap {
+    padding-right: 35px;
+}
+.teamModal .modal-dialog {
+    padding: 25px 15px;
+}
+.teamModalBox_row {
+    width: calc(100% - 40px );
+    padding: 0 10px;
+}
+.teamModal .teamModalBox_desc {
+    font-size: 12px;
+    margin-top: 14px;
+    padding-top: 14px;
+}
+.teamModal .teamModalBox_subtitle { 
+    font-size: 12px;
+}
+.teamModal_navbtn { 
+    width: 20px !important; 
+}
+.teamModalBox_heading .teamModalBox_close {
+    right: 0;
+    top: -20px;
+}
+}
+@media screen and (max-width: 991px) {
+    
+.container{ 
+    padding: 0 25px;
+} 
+.padd-row  {
+    padding: 70px 0;
+}
+body, .cmn_accordion .card .card-header h5 {
+    font-size: 16px;
+}
+.main-heading h2, h2 {
+    font-size: 30px;
+}
+.main-heading h2.askan_txt, h2.askan_txt {
+    font-size: 38px;
+} 
+div#collapsibleNavbar {
+    position: fixed;
+    background-color: #f7efe2;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100% !important;
+    padding: 30px 20px 0;
+    overflow-y: auto;
+    transition: all .2s;
+    z-index: 2;
+}
+.main_nav_top{
+    display: none;
+}
+footer.footer { 
+    padding: 60px 0;
+    font-size: 14px;
+} 
+header.Sticky-fixed{
+    position: static;
+}
+header.Sticky-fixed .logo a img {
+    width: 110px;
+}
+header.Sticky-fixed .logo .logotxt {
+    font-size: 11px;
+    margin-top: 1px;
+}
+.main-navigation ul > li > a {
+    font-size: 18px;
+}
+.portalWrapper .formWrapper {
+    padding: 0 25px;
+}
+.banner_txtwrap h1 {
+    font-size: 40px;
+}
+.banner-desc {
+    font-size: 16px;
+}
+.banner_main {
+    padding: 130px 0;
+}
+.home_abt_colList .home_abt_heading {
+    font-size: 20px;
+}
+.home_abt_sec .home_abt_secWrap .main-heading {
+    margin-bottom: 30px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5 {
+    font-size: 16px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5::before {
+    top: 5px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5::after {
+    top: 5px;
+}
+} 
+
+@media screen and ( max-width: 767px ){
+  
+body {
+    overflow-x: hidden;
+}
+body, .cmn_accordion .card .card-header h5 {
+    font-size: 14px;
+}
+.main-heading h2, h2 {
+    font-size: 28px;
+} 
+.main-heading {
+    margin-bottom: 45px;
+} 
+footer.footer { 
+    padding: 45px 0;
+    font-size: 14px;
+    background-position: bottom right;
+}
+.ftrMain [ class*='col-' ] {
+    margin-bottom: 40px;
+} 
+.ftrMain [ class*='col-' ]:last-child {
+    margin-bottom: 0;
+} 
+.portalWrapper::before {
+    display: none;
+}
+.portalWrapper {
+    padding: 0;
+}
+.portalWrapper .formWrapper {
+    padding: 70px 25px;
+}
+.portalWrapper .formWrapper.contactForm {
+    background-color: #EFF3F9;
+}
+.banner_txtwrap h1 {
+    font-size: 30px;
+}
+.banner-desc {
+    font-size: 14px;
+}
+.banner_main {
+    padding: 100px 0;
+}
+.home_corVal .home_corVal_list .row {
+    margin-bottom: -30px;
+}
+.home_corVal .home_corVal_list .row .col-md-3.col-6 {
+    margin-bottom: 30px;
+}
+.home_corVal_box .home_corVal_box_txt h4 {
+    font-size: 16px;
+}
+.home_abt_colList .home_abt_heading {
+    font-size: 18px;
+}
+.home_abt_sec .home_abt_secWrap .main-heading {
+    margin-bottom: 20px;
+}
+.home_abt_sec .home_abt_rigtSide .home_abt_colList .row {
+    margin-bottom: -30px;
+}
+.home_abt_sec .home_abt_rigtSide .home_abt_colList .col-md-4 {
+    margin-bottom: 30px;
+}
+.home_abt_sec .home_abt_teamBox .team_boxLink {
+    margin-top: 15px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5 {
+    font-size: 14px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5::after {
+    top: 3px;
+}
+.teamModalBox {
+    display: block;
+}
+.teamModalBox_row {
+    width: 100%;
+    padding: 0 10px;
+} 
+.teamModalBox_lftSide {
+    margin-bottom: 40px;
+}
+.teamModalBox_heading .teamModalBox_close {
+    top: -25px;
+    right: -10px;
+}
+.teamModal .teamModalBox_desc { 
+    font-size: 12px;
+}
+.teamModal .teamModalBox_subtitle { 
+    font-size: 13px;
+}
+.teamModal_btnwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.teamModal_navbtn { 
+    width: 30px !important;
+    margin: 0 5px; 
+}
+.teamModal .teamModalBox_descWrap {
+    padding-right: 40px;
+}
+.teamModal .teamModalBox_desc:before { 
+    top: -2px; 
+    margin-left: 18px;
+    width: 25px;
+    height: 20px; 
+}
+.teamModal .teamModalBox_desc:after { 
+    width: 26px; 
+    top: 8px; 
+    margin-left: -4px;
+}
+.teamModalBox_img {
+    max-width: 260px;
+}
+.teamModalBox_img .teamModalBox_image img {
+    max-height: 170px;
+}
+.teamModalBox_row {
+    position: relative;
+}
+.teamModalBox_heading, .teamModalBox_row [class*='col-'] {
+    position: static;
+}
+}  
+
+@media screen and ( max-width: 413px ) { 
+
+}
