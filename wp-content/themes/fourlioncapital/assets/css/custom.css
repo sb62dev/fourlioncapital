@@ -355,7 +355,7 @@ footer.footer {
     color: #ffff;
 }
 .banner_txtwrap h1 {
-    max-width: 400px;
+    max-width: 520px;
     margin-bottom: 25px;
     font-size: 55px;
 } 
@@ -370,7 +370,7 @@ footer.footer {
 .home_corVal_box .home_corVal_box_txt h4 {
     font-size: 18px;
     text-transform: uppercase;
-    margin: 15px 0 12px;
+    margin: 15px 0 4px;
 }
 .home_corVal_box .home_corVal_box_txt h4 span {
     display: block;
@@ -385,8 +385,8 @@ footer.footer {
 }
 .home_corVal_box .home_corVal_box_txt p {
     margin: 0;
-    font-size: 13px;
-    color: #747C89;
+    font-size: 18px;
+    color: #122545;
 }
 .home_abt_rigtSide .home_abt_secTxt {
     max-width: 600px;
@@ -754,12 +754,12 @@ footer.footer {
     transform: scale(1.05);
 }
 .home_abt_teamBox:hover * {
-    color: #000;
+   color: #000;
 }
 .investmentFeaturesWrap .inventmentTabWrap .card .card-body ul {
     color: #122545;
     list-style: disc;
-    margin: 5px 0 20px 30px;
+    margin: 5px 0 15px 30px;
     font-size: 14px;
 }
 .inventmentTabWrap .card .table-responsive table {
@@ -802,4 +802,51 @@ footer.footer {
 .portalWrapper .formWrapper p {
     margin-bottom: 30px;
     margin-top: -10px;
+}
+.ftrLinkAdrs {
+    color: #D9D9D9; 
+}
+.ftrLinkAdrs h4 {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.invst_cardbody {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-body h4 {
+    font-size: 16px;
+    color: #122545;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.inventmentTabWrap .card .table .tdWhite {
+    background: #fff !important;
+    border: 0 !important;
+}
+.inventmentTabWrap .card .table .bgGray th.tdWhite {
+    background: transparent !important;
+}
+.invst_cardbody_heading {
+    max-width: 200px;
+    margin: 0 auto;
+}
+.invst_cardbody_heading h4 {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.invst_cardbody [class*='col-'] {
+    margin-bottom: 35px;
+}
+.home_abt_teamBox_logosimg {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.home_abt_teamBox_logosimg img {
+    max-height: 48px;
+}
+.teamModal .home_abt_teamBox_logosimg img {
+    max-height: 75px;
 }

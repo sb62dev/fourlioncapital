@@ -23,27 +23,31 @@
                         <a href="/"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo_white.svg" alt="logo" width="200"> </a>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-5">
                     <div class="ftrLinks ftrMenu-list">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <ul>
-                                    <li> <a href="#home"> Home </a></li>
-                                    <li> <a href="#about"> About </a></li>
-                                </ul>
+                        <ul>
+                            <li> <a href="#home"> Home </a></li>
+                            <li> <a href="#about"> About </a></li>
+                            <li> <a href="#philosophy"> INVESTMENT Philosophy </a></li>
+                            <li> <a href="#principles"> PRINCIPLES </a></li>
+                            <li> <a href="#contact"> INVESTOR PORTAL </a></li>
+                            <li> <a href="#contact"> CONTACT </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ftrLinkAdrs">
+                        <div class="ftrLinkAdrs_col">
+                            <h4> MUMBAI </h4>
+                            <div class="ftr_adrs">
+                                10th Floor, Avighna Tower, <br> Worli, Mumbai <br>  Maharashtra 400018, India <br> Phone: +91 98333 84822
                             </div>
-                            <div class="col-md-4">
-                                <ul>
-                                    <li> <a href="#philosophy"> INVESTMENT Philosophy </a></li>
-                                    <li> <a href="#principles"> PRINCIPLES </a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <ul>
-                                    <li> <a href="#contact"> INVESTOR PORTAL </a></li>
-                                    <li> <a href="#contact"> CONTACT </a></li>
-                                </ul>
-                            </div>
+                        </div>
+                        <div class="ftrLinkAdrs_col">
+                            <h4> NEW YORK </h4>
+                            <div class="ftr_adrs">
+                                575 5th Avenue, 15th Floor, <br> New York City, NY 10017, <br> United States <br> Phone: +1 857-928-6926
+                            </div> 
                         </div>
                     </div>
                 </div>

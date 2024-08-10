@@ -20,10 +20,7 @@ get_header(); ?>
         <div class="container">
             <div class="banner_main">
                 <div class="banner_txtwrap">
-                    <h1> Differentiated Exposure to <br class="d-none d-md-block"> Indian Equities </h1>
-                    <div class="banner-desc">
-                        <p> We Make Long-Term Investments in High-Quality Businesses </p>
-                    </div>
+                    <h1> Differentiated Exposure to  Indian<br class="d-none d-md-block"> Public Equities </h1> 
                 </div>
             </div>
         </div>
@@ -32,8 +29,7 @@ get_header(); ?>
     <section class="home_corVal padd-row" id="home">
         <div class="container">
             <div class="main-heading" data-aos="fade-up">
-                <h2> Core Values </h2>
-                <p> Guided by the four lions on the Ashoka Pillar, our philosophy is rooted in a deep conviction in: </p>
+                <h2> Guided by the Four Lions on the Ashoka Pillar </h2> 
             </div>
             <div class="home_corVal_list">
                 <div class="row">
@@ -43,8 +39,8 @@ get_header(); ?>
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/core_val_icon_1.svg" alt="icon">
                             </div>
                             <div class="home_corVal_box_txt">
-                                <h4> Confidence <span>in the India Growth Story</span></h4>
-                                <p> Our unwavering belief in India's growth potential drives our investment strategies, allowing us to capitalize on emerging opportunities and deliver value to our clients.</p>
+                                <h4> Confidence </h4>
+                                <p> in the India Growth Story </p>
                             </div>
                         </div>
                     </div>
@@ -54,8 +50,8 @@ get_header(); ?>
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/core_val_icon_2.svg" alt="icon">
                             </div>
                             <div class="home_corVal_box_txt">
-                                <h4> COURAGE <span>of Conviction in Difficult Times</span></h4>
-                                <p> We stand firm in our decisions during challenging times, guided by thorough research and a deep understanding of the market. </p>
+                                <h4> COURAGE </h4>
+                                <p> of Conviction in Difficult Times </p>
                             </div>
                         </div>
                     </div>
@@ -65,8 +61,8 @@ get_header(); ?>
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/core_val_icon_3.svg" alt="icon">
                             </div>
                             <div class="home_corVal_box_txt">
-                                <h4> PRIDE <span>in building an institutional grade investment fund</span></h4>
-                                <p> We take pride in our meticulous approach to creating a robust, institutional-grade investment fund that meets the highest standards of excellence. </p>
+                                <h4> PRIDE  </h4>
+                                <p> in building an institutional grade investment fund </p>
                             </div>
                         </div>
                     </div>
@@ -76,8 +72,8 @@ get_header(); ?>
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/core_val_icon_4.svg" alt="icon">
                             </div>
                             <div class="home_corVal_box_txt">
-                                <h4> FAITH <span>in Long-Term Approach to Investing</span></h4>
-                                <p> Our commitment to a long-term investment strategy ensures that we prioritize sustainable growth and consistent returns for our clients. </p>
+                                <h4> FAITH </h4>
+                                <p> in Long-Term Approach to Investing </p>
                             </div>
                         </div>
                     </div>
@@ -128,6 +124,13 @@ get_header(); ?>
                                                 <?php endif; ?>
                                                 <?php if (get_sub_field('sub_title')): ?>
                                                 <div class="team_desi"><?php echo get_sub_field('sub_title'); ?></div>
+                                                <?php endif; ?>
+                                                <?php 
+                                                $image = get_sub_field('logos');
+                                                if (!empty($image)): ?>
+                                                    <div class="home_abt_teamBox_logosimg">
+                                                        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                                                    </div>
                                                 <?php endif; ?>
                                                 <div class="team_boxLink">
                                                     <span class="team_box_linkBtn"> Know More </span>
@@ -194,6 +197,13 @@ get_header(); ?>
                                                                     <div class="teamModalBox_descWrap">
                                                                         <div class="teamModalBox_desc">
                                                                             <?php echo get_sub_field('description'); ?>
+                                                                            <?php 
+                                                                            $image = get_sub_field('logos');
+                                                                            if (!empty($image)): ?>
+                                                                                <div class="home_abt_teamBox_logosimg">
+                                                                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                                                                                </div>
+                                                                            <?php endif; ?>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -227,14 +237,13 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="investmentFeaturesWrap padd-row" id="philosophy">
+    <section class="investmentFeaturesWrap padd-row a" id="philosophy">
         <div class="container">
             <div class="investmentFeaturesInner">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="investmentTitle">
                             <h2>Investment Philosophy</h2>
-                            <p>We focus on high-quality investments, guided by thorough research and a long-term growth strategy</p>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -242,19 +251,52 @@ get_header(); ?>
                             <div id="accordion">
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
-                                        <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h5 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                             Fund Strategy and Objectives
                                         </h5>
-                                    </div>
-
-                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <p>Long-Only Investment Strategy</p>
-                                            <p>15-25 Names Concentrated Portfolio</p>
-                                            <p>Flexi-Cap Market Cap. Considerations</p>
-                                            <p>3+ Years Holding Period</p>
-                                            <p>$1mm Avg. Daily Trading Volume</p>
-                                            <p>S&P BSE 500 Benchmark Index</p>
+                                    </div> 
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">  
+                                            <div class="invst_cardbody">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="invst_cardbody_heading">
+                                                            <h4> Long-Only </h4>
+                                                            <p class="mb-0"> Investment Strategy </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="invst_cardbody_heading">
+                                                            <h4> 15-25 Names </h4>
+                                                            <p class="mb-0"> Concentrated Portfolio </p>
+                                                        </div> 
+                                                    </div> 
+                                                    <div class="col-md-4">
+                                                        <div class="invst_cardbody_heading">
+                                                            <h4> Flexi-Cap </h4>
+                                                            <p class="mb-0"> Market Cap. Considerations </p>
+                                                        </div>     
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="invst_cardbody_heading">
+                                                            <h4> >$1mm </h4>
+                                                            <p class="mb-0"> Avg. Daily Trading Volume </p>
+                                                        </div>   
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="invst_cardbody_heading">
+                                                            <h4> 3+ Years </h4>
+                                                            <p class="mb-0"> Holding Period </p>
+                                                        </div>  
+                                                    </div> 
+                                                    <div class="col-md-4">
+                                                        <div class="invst_cardbody_heading">
+                                                            <h4> S&P BSE 500 </h4>
+                                                            <p class="mb-0"> Benchmark Index </p>
+                                                        </div>    
+                                                    </div> 
+                                                </div>
+                                            </div>  
                                         </div>
                                     </div>
                                 </div>
@@ -266,24 +308,34 @@ get_header(); ?>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                         <div class="card-body">
-                                            <p>Strong Relationships within Ecosystem</p>
-                                            <ul>
-                                                <li>Corporate Management Teams</li>
-                                                <li>Indian Fund Managers (Mutual Funds, DIIs, FIIs, etc.)</li>
-                                                <li>Pre-IPO Opportunities</li>
-                                            </ul>
-                                            <p>Differentiated Due-Diligence Capabilities.</p>
-                                            <ul>
-                                                <li>PE-style Diligence to Public Equities</li>
-                                                <li>Proprietary Expert Networks</li>
-                                                <li>Investment Banks / Sell-side Research</li>
-                                            </ul>
-                                            <p>Deep Conviction Investing</p>
-                                            <ul>
-                                                <li>‘Buy & Hold’ over Long Time Horizons</li>
-                                                <li>Concentrated Book</li>
-                                                <li>Patient Capital</li>
-                                            </ul>
+                                            <div class="invst_cardbody">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <h4> Strong Relationships within Ecosystem </h4>
+                                                        <ul>
+                                                            <li>Corporate Management Teams</li>
+                                                            <li>Indian Fund Managers (Mutual Funds, DIIs, FIIs, etc.)</li>
+                                                            <li>Pre-IPO Opportunities</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <h4> Differentiated Due-Diligence Capabilities </h4>
+                                                        <ul>
+                                                            <li>PE-style Diligence to Public Equities</li>
+                                                            <li>Proprietary Expert Networks</li>
+                                                            <li>Investment Banks / Sell-side Research</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <h4> Deep Conviction Investing </h4>
+                                                        <ul>
+                                                            <li>‘Buy & Hold’ over Long Time Horizons</li>
+                                                            <li>Concentrated Book</li>
+                                                            <li>Patient Capital</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div> 
                                         </div>
                                     </div>
                                 </div>
@@ -294,41 +346,14 @@ get_header(); ?>
                                         </h5>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <p>Industry Structure</p>
+                                        <div class="card-body"> 
                                             <ul>
-                                                <li>Tailwinds and headwinds due to secular / cyclical factors</li>
-                                                <li>Customer, supplier, competitor bargaining power / capture of value in supply chain</li>
-                                                <li>Barriers to entry / specific MOATs</li>
-                                            </ul>
-                                            <p>Company Deep-dive</p>
-                                            <ul>
-                                                <li>Identify the actual TAM, its growth and adjacencies</li>
-                                                <li>Competitive differentiation, strategic positioning and revenue growth drivers</li>
-                                                <li>Operating leverage</li>
-                                                <li>Earnings / free cash flow algorithm</li>
-                                            </ul>
-                                            <p>Management</p>
-                                            <ul>
-                                                <li>Historical track record of capital allocation</li>
-                                                <li>Related party transactions, if any</li>
-                                                <li>Outstanding and potential legal and tax obligations</li>
-                                                <li>Auditor relationship</li>
-                                                <li?>Earnings communications and disclosures</li>
-                                            </ul>
-                                            <p>Stock Sentiment</p>
-                                            <ul>
-                                                <li>Deep understanding of free float and consistent market participants in the stock</li>
-                                                <li>Buy-side (institutional) sentiment assessment</li>
-                                                <li>PE/VC position overhang with potential supply of blocks</li>
-                                            </ul>
-                                            <p>Valuation</p>
-                                            <ul>
-                                                <li>Reverse DCF to understand market assumptions</li>
-                                                <li>Bottoms-up analysis to calculate fair value of shares</li>
-                                                <li>Floor and ceiling assessment based on probabilities</li>
-                                                <li>Strategic takeout potential</li>
-                                            </ul>
+                                                <li> <h4> Industry Structure </h4></li> 
+                                                <li> <h4> Company Deep-dive </h4></li> 
+                                                <li> <h4> Management </h4></li> 
+                                                <li> <h4> Stock Sentiment </h4></li> 
+                                                <li> <h4> Valuation </h4> </li> 
+                                            </ul> 
                                         </div>
                                     </div>
                                 </div>
@@ -358,45 +383,47 @@ get_header(); ?>
                                                 <table class="table">
                                                     <thead class="thead-dark">
                                                         <tr>
-                                                            <th class="tdDark"></th>
+                                                            <th class="tdWhite"></th>
                                                             <th colspan="2" class="text-center">
                                                                 15-25 names
                                                             </th>
                                                         </tr>
                                                         <tr class="bgGray">
-                                                            <th class="tdDark"></th>
+                                                            <th class="tdWhite"></th>
                                                             <th class="text-center">Core Portfolio</th>
                                                             <th class="text-center">Thesis-Based</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <th class="tdDark"></th>
-                                                            <td>(60% of AUM)</td>
-                                                            <td>(40% of AUM)</td>
+                                                            <th class="tdWhite"></th>
+                                                            <td>60% of AUM</td>
+                                                            <td>40% of AUM</td>
                                                         </tr>
                                                         <tr>
                                                             <th class="tdDark">Number of Positions</th>
-                                                            <td>5 – 7</td>
-                                                            <td>10 – 18</td>
+                                                            <td>5 - 7</td>
+                                                            <td>10 - 18</td>
                                                         </tr>
                                                         <tr>
                                                             <th class="tdDark">Holding Period </th>
-                                                            <td>7 – 10 years</td>
-                                                            <td>2 – 5 years</td>
+                                                            <td>5+ years</td>
+                                                            <td>2-3 years</td>
                                                         </tr>
                                                         <tr>
                                                             <th class="tdDark">Idea Generation</th>
                                                             <td>
                                                                 <ul>
-                                                                    <li>Past experience /</li>
+                                                                    <li>Past experience</li>
                                                                     <li>Sectoral knowledge</li>
+                                                                    <li>Secular macro tailwinds</li>
                                                                 </ul>
                                                             </td>
                                                             <td>
                                                                 <ul>
-                                                                    <li>Step change regulations, tech</li>
-                                                                    <li>Inflections, stock specific controversies,</li>
+                                                                    <li>Turnaround stories</li>
+                                                                    <li>Tech inflections</li>
+                                                                    <li>Stock specific controversies</li>
                                                                     <li>PE / strategic activity</li>
                                                                 </ul>
                                                             </td>
@@ -417,7 +444,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
 
     <section class="home_princpls bg_blue padd-row" id="principles">
@@ -426,8 +453,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="main-heading text-white" data-aos="fade-up">
-                            <h2> Principles </h2>
-                            <p> Guided by our principles, we drive every decision with purpose </p>
+                            <h2> Principles </h2> 
                         </div>
                     </div>
                     <div class="col-md-9">

@@ -5,6 +5,22 @@
 .fixdNav {
     display: none;
 } 
+.ftrMenu-list li {
+    display: inline-block;
+    width: 48%;
+}
+.ftrMenu-list li:nth-child(even) {
+    margin-left: 3%;
+}
+.ftrLinkAdrs { 
+    display: flex;
+}
+.ftrLinkAdrs .ftrLinkAdrs_col {
+    width: 48%;
+}
+.ftrLinkAdrs .ftrLinkAdrs_col:nth-child(even) {
+    margin-left: 4%;
+}
     
 }
 
@@ -73,6 +89,7 @@ body, .cmn_accordion .card .card-header h5 {
     font-size: 13px;
 }
 } 
+
 @media ( min-width: 768px ) and ( max-width: 991px ) { 
 .teamModal .teamModalBox_descWrap {
     padding-right: 35px;
@@ -100,6 +117,7 @@ body, .cmn_accordion .card .card-header h5 {
     top: -20px;
 }
 }
+
 @media screen and (max-width: 991px) {
     
 .container{ 
@@ -189,6 +207,10 @@ header.Sticky-fixed .logo .logotxt {
 .ftrBtmCopyright {
     margin-top: 50px;
 }
+.ftrLinkAdrs .ftrLinkAdrs_col:nth-child(even) {
+    margin-top: 30px;
+}
+
 } 
 
 @media screen and ( max-width: 767px ){
@@ -358,6 +380,20 @@ footer.footer {
 .home_corVal_box .home_corVal_box_txt h4 span {
     font-size: 12px;
 }
+.ftrLinkAdrs {
+    margin-top: 20px;
+}
+.invst_cardbody {
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-body h4 {
+    font-size: 15px; 
+}
+.investmentFeaturesWrap .inventmentTabWrap .card .card-header h5::before {
+    top: 3px;
+}
+
 }  
 
 @media screen and ( max-width: 413px ) { 
