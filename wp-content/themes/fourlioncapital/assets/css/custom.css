@@ -698,7 +698,10 @@ footer.footer {
     text-shadow: none !important;
     cursor: pointer !important;
     outline: none !important;
-} 
+    background: transparent !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
 .teamModal_navbtn {
     cursor: pointer;
     background: transparent !important;
@@ -759,7 +762,7 @@ footer.footer {
 .investmentFeaturesWrap .inventmentTabWrap .card .card-body ul {
     color: #122545;
     list-style: disc;
-    margin: 5px 0 15px 30px;
+    margin: 5px 0 15px 15px;
     font-size: 14px;
 }
 .inventmentTabWrap .card .table-responsive table {
@@ -829,8 +832,7 @@ footer.footer {
     background: transparent !important;
 }
 .invst_cardbody_heading {
-    max-width: 200px;
-    margin: 0 auto;
+    max-width: 200px; 
 }
 .invst_cardbody_heading h4 {
     margin-bottom: 8px;
@@ -848,5 +850,5 @@ footer.footer {
     max-height: 48px;
 }
 .teamModal .home_abt_teamBox_logosimg img {
-    max-height: 75px;
+    max-height: 55px;
 }
