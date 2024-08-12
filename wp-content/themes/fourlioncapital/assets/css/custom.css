@@ -505,6 +505,7 @@ footer.footer {
 }
 .investmentFeaturesWrap .inventmentTabWrap .card .card-body {
     padding: 20px 20px 0 30px;
+    font-size: 14px; 
 }
 .investmentFeaturesWrap .inventmentTabWrap .card .card-body p {
     font-size: 14px;
@@ -847,8 +848,8 @@ footer.footer {
     margin-bottom: 5px;
 }
 .home_abt_teamBox_logosimg img {
-    max-height: 48px;
+    max-height: 85px;
 }
 .teamModal .home_abt_teamBox_logosimg img {
-    max-height: 55px;
+    max-height: 80px;
 }

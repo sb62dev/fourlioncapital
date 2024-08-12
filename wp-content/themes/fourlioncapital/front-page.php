@@ -430,7 +430,7 @@ get_header(); ?>
                                                         </tr>
                                                         <tr>
                                                             <th class="tdDark">Thesis</th>
-                                                            <td>High Quality Names at a reasonable price </td>
+                                                            <td>High quality names at a reasonable price </td>
                                                             <td>Favorable risk-reward based on thesis</td>
                                                         </tr>
                                                     </tbody>
