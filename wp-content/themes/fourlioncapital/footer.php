@@ -18,7 +18,7 @@
     <div class="container">
         <div class="ftrMain">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="ftr-logo">
                         <a href="/"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo_white.svg" alt="logo" width="200"> </a>
                     </div>
@@ -35,7 +35,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <div class="ftrLinkAdrs">
                         <div class="ftrLinkAdrs_col">
                             <h4> MUMBAI </h4>

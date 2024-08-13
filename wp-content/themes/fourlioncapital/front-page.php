@@ -196,14 +196,7 @@ get_header(); ?>
                                                                     </div>
                                                                     <div class="teamModalBox_descWrap">
                                                                         <div class="teamModalBox_desc">
-                                                                            <?php echo get_sub_field('description'); ?>
-                                                                            <?php 
-                                                                            $image = get_sub_field('logos');
-                                                                            if (!empty($image)): ?>
-                                                                                <div class="home_abt_teamBox_logosimg">
-                                                                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                                                                                </div>
-                                                                            <?php endif; ?>
+                                                                            <?php echo get_sub_field('description'); ?> 
                                                                         </div>
                                                                     </div>
                                                                 </div>
