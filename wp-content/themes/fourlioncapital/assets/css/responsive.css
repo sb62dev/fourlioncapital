@@ -48,6 +48,12 @@ p {
     margin-left: 17%;
     padding-left: 3rem;
 }
+.home_providers_secWrap .main-heading {
+    padding-top: 30px;
+}
+section#providers {
+    padding: 150px 0 170px;
+}
     
 }  
 
@@ -415,6 +421,9 @@ footer.footer {
 }
 .investmentFeaturesWrap .inventmentTabWrap .card .card-header h5::before {
     top: 3px;
+}
+.home_providers_box {
+    margin-bottom: 25px;
 }
 
 }  

@@ -528,6 +528,35 @@ get_header(); ?>
         </div>
     </section>
 
+    <section class="home_providers bg_grey padd-row" id="providers">
+        <div class="container">
+            <div class="home_providers_secWrap">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="main-heading" data-aos="fade-up">
+                            <h2> Key Service <br class="d-none d-xl-block"> Providers </h2> 
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="home_providers_rigtSide">
+                            <div class="home_providers_list">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="home_providers_box mb-0">
+                                            <div class="home_providers_box_icon">
+                                                <img src="/wp-content/uploads/2024/08/providers_logo.svg" alt="icon">
+                                            </div> 
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="portalWrapper" id="contact">
         <div class="row no-gutters">
             <div class="col-md-6">
