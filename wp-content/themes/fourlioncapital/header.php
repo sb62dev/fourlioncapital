@@ -12,6 +12,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="iK5X7oc4EP7cKw7s4jhSc081cqBJWSibFdFptJH7LCk" />
+<meta property="og:image" content="<?php echo get_home_url(); ?>/wp-content/uploads/2024/08/fourlioncapital-logo.png" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
     <?php wp_head(); ?>
