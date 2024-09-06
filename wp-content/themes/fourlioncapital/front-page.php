@@ -544,7 +544,7 @@ get_header(); ?>
                                     <div class="col-md-12">
                                         <div class="home_providers_box mb-0">
                                             <div class="home_providers_box_icon">
-                                                <img src="/wp-content/uploads/2024/08/providers_logo.svg" alt="icon">
+                                                <img src="/wp-content/uploads/2024/09/providers_logo_v2.svg" alt="icon">
                                             </div> 
                                         </div>
                                     </div>  
