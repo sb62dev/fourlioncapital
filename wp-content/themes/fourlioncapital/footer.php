@@ -36,13 +36,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="ftrLinkAdrs">
-                        <div class="ftrLinkAdrs_col">
-                            <h4> MUMBAI </h4>
-                            <div class="ftr_adrs">
-                                10th Floor, Avighna Tower, <br> Worli, Mumbai <br>  Maharashtra 400018, India <br> Phone: +91 98333 84822
-                            </div>
-                        </div>
+                    <div class="ftrLinkAdrs"> 
                         <div class="ftrLinkAdrs_col">
                             <h4> NEW YORK </h4>
                             <div class="ftr_adrs">
