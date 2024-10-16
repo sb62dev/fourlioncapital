@@ -40,7 +40,7 @@
                         <div class="ftrLinkAdrs_col">
                             <h4> MUMBAI </h4>
                             <div class="ftr_adrs">
-                                10th Floor, Avighna Tower, <br> Worli, Mumbai <br>  Maharashtra 400018, India <br> Phone: +91 98333 84822
+                            Nirmal Building, 15th Floor,  <br> Nariman Point, <br>  Mumbai 400021, India <br> Phone: +91 9821555800
                             </div>
                         </div>
                         <div class="ftrLinkAdrs_col">
